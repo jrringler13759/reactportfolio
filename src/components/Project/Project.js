@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Project (props) {
-    {props.projects.map(proj => {
+    props.projects.map(proj => {
       return(
         <div className="card" style={{width: 18}}>
             <img src={proj.image} className="card-img-top" alt={proj.altTag} />
@@ -13,7 +13,7 @@ function Project (props) {
             </div>
         </div>
           )
-        })}
+        })
   }
   
   export default Project;
