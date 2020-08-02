@@ -3,21 +3,19 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Project from "./components/";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+
 
 function App() {
   return (
     <Router>
       <div>
         <Header />
-       
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/portfolio" component={Portfolio} />
-        <Project />
         <Footer />
       </div>
     </Router>

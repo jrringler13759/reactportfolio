@@ -1,20 +1,27 @@
-import React from 'react';
+import React, { Component } from "react";
+import projects from "../utils/projects.json";
+import Project from "../components/Project/Project";
 
 
-function Project (props) {
-  {props.projects.map(proj => {
-    return(
-    <div className="card" style="width: 18rem;">
-        <img src={proj.image} className="card-img-top" alt={proj.altTag} />
-        <div class="card-body">
-          <h5 class="card-title">{proj.title}</h5>
-          <a href={proj.github} target = "blank" className="btn btn-primary">GitHub Repo</a>
-          <a href={proj.live} target = "blank" className="btn btn-primary">Live Page</a>
-          <p>{proj.description}</p>
-        </div>
-    </div>
+
+class Portfolio extends Component {
+    state = {
+        projects: projects
+    }
+
+    render() {
+        return (
+            <div>
+                <Project projects = {this.state.projects} />
+            </div>
         )
-      })}
+    }
+
 }
 
-export default project;
+
+export default Portfolio;
+
+
+
+//here is where you will call the project in the render

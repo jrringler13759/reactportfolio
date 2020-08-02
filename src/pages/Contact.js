@@ -61,8 +61,6 @@ render() {
 	this.setState({message: event.target.value})
   }
 
-handleSubmit(event) {
-}
 }
 
 export default Contact;
