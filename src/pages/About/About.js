@@ -1,5 +1,4 @@
 import React from "react";
-import Pic from "../components/ProfilePic/Pic"
 
 
 function About() {
@@ -11,7 +10,7 @@ function About() {
         </div>
 
         <div className = "row justify-content-center">
-           <Pic />
+          <img id = "profilePic" class = "responsive" src = "Assets/ProfilePic.jpg" alt = "Jessica Ringler" />
         </div>
         
         <br />

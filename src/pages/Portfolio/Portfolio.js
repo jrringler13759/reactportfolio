@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import projects from "../utils/projects.json";
-import Project from "../components/Project/Project";
+import Project from "../../components/Project/Project";
 
 
 
