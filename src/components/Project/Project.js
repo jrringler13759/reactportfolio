@@ -2,9 +2,10 @@ import React from 'react';
 import "./ProjectStyle.css"
 
 function Project (props) {
-    props.projects.map(proj => {
+  return (
+    props.projects.map((proj, i) => {
       return(
-        <div className="card" style={{width: 18}}>
+        <div key = {i} className="card" style={{width: 18}}>
             <img src={proj.image} className="card-img-top" alt={proj.altTag} />
             <div className="card-body">
               <h5 className="card-title">{proj.title}</h5>
@@ -15,6 +16,7 @@ function Project (props) {
         </div>
           )
         })
+    )
   }
   
   export default Project;

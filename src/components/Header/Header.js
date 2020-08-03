@@ -40,12 +40,7 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/resume"
-              className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
-            >
-              R&#233;sum&#233;
-            </Link>
+            <a href = "JessicaRingler-Resume.pdf" target = "blank" >R&#233;sum&#233;</a>
           </li>
         </ul>
       </div>
