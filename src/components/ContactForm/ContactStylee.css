@@ -1,0 +1,15 @@
+.btn-primary {
+    background: rgb(72, 17, 90);
+    border-color:  rgb(72, 17, 90);
+    color: white;
+}
+
+.btn-primary:hover {
+    color: rgb(72, 17, 90);
+    background-color: rgba(246, 194, 248, 0.571);
+    border-color: rgb(72, 17, 90);
+}
+
+#contact-form {
+    margin-top: 60px;
+}

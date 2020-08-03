@@ -9,6 +9,9 @@ function Header() {
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">
+          <span class="brand-name">Jessica Ringler</span>  
+          </li>
+          <li className="nav-item">
             <Link
               to="/"
               className={
@@ -22,6 +25,14 @@ function Header() {
           </li>
           <li className="nav-item">
             <Link
+              to="/contact"
+              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+            >
+              Contact
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
               to="/portfolio"
               className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
             >
@@ -30,10 +41,10 @@ function Header() {
           </li>
           <li className="nav-item">
             <Link
-              to="/contact"
-              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+              to="/resume"
+              className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
             >
-              Contact
+              R&#233;sum&#233;
             </Link>
           </li>
         </ul>

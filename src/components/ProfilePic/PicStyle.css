@@ -1,0 +1,7 @@
+#profilePic{
+    display: block;
+    width: 300px;
+    margin: 15px;
+    position: relative;
+    top: 20px;
+}

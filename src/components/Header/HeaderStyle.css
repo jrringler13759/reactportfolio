@@ -1,3 +1,46 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
 }
+
+nav {
+  display: inline-block;
+  background: rgb(72, 17, 90);
+  color: white;
+
+}
+
+.nav-item {
+  color:  white;
+  text-decoration: none;
+  font-family: 'Julius Sans One', sans-serif;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+
+}
+
+nav-item:hover {
+  text-decoration: none;
+  color: white;
+}
+
+
+nav-item:active {
+  text-decoration: none;
+  color: white;
+}
+
+.brand-name {
+  color: black;
+  background:rgba(246, 194, 248, 0.571);
+  top: 25px;
+  padding: 20px;
+  margin-left: 10px;
+  font-size: 40px;
+  font-family: 'Julius Sans One', sans-serif;
+  display: inline-block;  
+  padding: 20px;
+}
+.brand-name-div{
+  margin-top: -10px !important;
+}
