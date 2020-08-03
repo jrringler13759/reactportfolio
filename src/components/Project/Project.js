@@ -1,4 +1,5 @@
 import React from 'react';
+import "./ProjectStyle.css"
 
 function Project (props) {
     props.projects.map(proj => {
