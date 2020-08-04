@@ -1,6 +1,6 @@
 [
     {
-        "image": "Assets/map.png",
+        "image": "/Assets/map.png",
         "altTage": "map",
         "title": "Info Internacional",
         "github": "https://github.com/jrringler13759/RinglerProject1.git",
@@ -8,7 +8,7 @@
         "description": "First group project created for the traveler or just someone interested in what's going on in other countries. Techology Used: HTML, CSS, JavaScript and jQuery, and AJAX"
     },
     {
-        "image": "Assets/weather.png",
+        "image": "/Assets/weather.png",
         "altTage": "screenshot of weather dashboard",
         "title": "Weather Dashboard",
         "github": "https://github.com/jrringler13759/HW6.git",

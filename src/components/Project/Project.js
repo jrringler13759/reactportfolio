@@ -6,7 +6,7 @@ function Project (props) {
     props.projects.map((proj, i) => {
       return(
           <div key = {i} className="card">
-              <img src={proj.image} className="card-img-top" alt={proj.altTag} />
+              <img src={process.env.PUBLIC_URL + proj.image} className="card-img-top" alt={proj.altTag} />
               <div className="card-body">
                 <h6 className="card-title">{proj.title}</h6>
                 <p id ="projdesc">{proj.description}</p>
