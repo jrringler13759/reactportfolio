@@ -1,0 +1,20 @@
+button {
+    background-color: rgb(72, 17, 90) !important;
+    border-color:  rgb(72, 17, 90) !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    color: rgb(72, 17, 90);
+    background-color: rgba(246, 194, 248, 0.571);
+    border-color: rgb(72, 17, 90);
+}
+
+
+form {
+    margin: 60px auto 60px auto !important;
+    
+    width: 70%;
+}
+
+

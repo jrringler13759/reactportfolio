@@ -1,45 +1,47 @@
-.container {
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-family: 'Julius Sans One', sans-serif;
-    width: 100%;
-    height: 100%;
-    color:  black;
-    text-align: center;
-    background: rgba(246, 194, 248, 0.571);
-
-}
-
-.col {
-    padding: 20px;
-    margin: 15px;
-    font-size: 30px;
-    font-family: 'Julius Sans One', sans-serif;
-    position: relative; 
-    
-} 
-
-.title {
-    background:  rgb(72, 17, 90);
-    color: white;
-    position: relative;
-    left: 20%;
-    
-    transform: translate(-50%, -50%);
-    width: 200px;
-}
-
-.title a {
-    color: white;
-}
-
-.title a:hover {
-    text-decoration: none;
-    color: white;
-}
 
 .card {
+    width: 200px;
     margin: 20px;
+}
+
+.card-body {
+    margin: 3px;
+    padding: 10px;
+}
+
+
+#projdesc {
+    font-size: 8px;
+    margin: 3px;
+}
+
+#github {
+    position: absolute !important;
+    bottom: 5px;
+    right: 10px;
+    margin: 3px;
+}
+
+#live {
+    position: absolute !important;
+    bottom: 5px;
+    left: 10px;
+    margin: 3px;
+
+}
+
+
+
+.btn {
+    width: 40%;
+    font-size: 10px;
+    background-color: rgb(72, 17, 90) !important;
+    border-color:  rgb(72, 17, 90) !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    color: rgb(72, 17, 90);
+    background-color: rgba(246, 194, 248, 0.571);
+    border-color: rgb(72, 17, 90);
 }
