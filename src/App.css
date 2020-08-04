@@ -1,0 +1,10 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-image:rgba(246, 194, 248, 0.571); 
+    color:black;
+    margin: 0 0 100px 0;
+}

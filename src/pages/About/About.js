@@ -1,4 +1,5 @@
 import React from "react";
+import "./AboutStyle.css";
 
 
 function About() {
@@ -10,7 +11,7 @@ function About() {
         </div>
 
         <div className = "row justify-content-center">
-          <img id = "profilePic" class = "responsive" src = "Assets/ProfilePic.jpg" alt = "Jessica Ringler" />
+          <img id = "profilePic" className = "responsive" src = "Assets/ProfilePic.jpg" alt = "Jessica Ringler" />
         </div>
         
         <br />

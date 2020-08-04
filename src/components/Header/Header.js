@@ -5,13 +5,13 @@ import "./HeaderStyle.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
+    <nav className="navbar">
+        <div className = "brand-name-div">
           <span class="brand-name">Jessica Ringler</span>  
-          </li>
-          <li className="nav-item">
+        </div>
+        
+        <div className="navbar justify-content-end">
+          
             <Link
               to="/"
               className={
@@ -22,28 +22,27 @@ function Header() {
             >
               About
             </Link>
-          </li>
-          <li className="nav-item">
+        
+         
             <Link
               to="/contact"
               className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
             >
               Contact
             </Link>
-          </li>
-          <li className="nav-item">
+        
+     
             <Link
               to="/portfolio"
               className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
             >
               Portfolio
             </Link>
-          </li>
-          <li className="nav-item">
+        
+      
             <a href = "JessicaRingler-Resume.pdf" target = "blank" >R&#233;sum&#233;</a>
-          </li>
-        </ul>
-      </div>
+          
+        </div>
     </nav>
   );
 }

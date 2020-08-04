@@ -9,9 +9,9 @@ nav {
 
 }
 
-.nav-item {
-  color:  white;
-  text-decoration: none;
+a {
+  color:  white !important;
+  text-decoration: none !important;
   font-family: 'Julius Sans One', sans-serif;
   padding: 5px;
   margin: 5px;
@@ -19,13 +19,13 @@ nav {
 
 }
 
-nav-item:hover {
+a:hover {
   text-decoration: none;
   color: white;
 }
 
 
-nav-item:active {
+a:active {
   text-decoration: none;
   color: white;
 }
