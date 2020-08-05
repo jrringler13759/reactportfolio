@@ -13,7 +13,7 @@ function Header() {
         <div className="navbar justify-content-end">
           
             <Link
-              to="/"
+              to="/about"
               className={
                 window.location.pathname === "/" || window.location.pathname === "/about"
                   ? "nav-link active"
