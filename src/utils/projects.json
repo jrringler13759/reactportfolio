@@ -16,35 +16,35 @@
         "description": ""
     },
     {
-        "image": "",
-        "altTage": "",
-        "title": "",
-        "github": "",
-        "live": "",
+        "image": "Assets/planner.png",
+        "altTage": "screenshot of planner",
+        "title": "Day Planner",
+        "github": "https://github.com/jrringler13759/HW5.git",
+        "live": "https://jrringler13759.github.io/HW5/Develop/",
         "description": ""
     },
     {
-        "image": "",
-        "altTage": "",
-        "title": "",
-        "github": "",
-        "live": "",
+        "image": "Assets/chzbrgr.png",
+        "altTage": "screenshot of chzbrgr ",
+        "title": "I caN Haz cHZbRgr",
+        "github": "https://github.com/jrringler13759/HW13.git",
+        "live": "https://jrringler13759.github.io/HW5/Develop/",
         "description": ""
     },
     {
-        "image": "",
-        "altTage": "",
-        "title": "",
-        "github": "",
-        "live": "",
+        "image": "Assets/SMSOL.png",
+        "altTage": "screenshot of SMSOL",
+        "title": "Tutor Tracker (SMSOL)",
+        "github": "https://github.com/jrringler13759/project2-jjem",
+        "live": "https://afternoon-eyrie-99732.herokuapp.com",
         "description": ""
     },
     {
-        "image": "",
-        "altTage": "",
-        "title": "",
-        "github": "",
-        "live": "",
+        "image": "Assets/empTracker.png",
+        "altTage": "screenshot of Employee Tracker",
+        "title": "Employee Tracker<",
+        "github": "https://github.com/jrringler13759/HW12",
+        "live": "ttps://drive.google.com/file/d/1Nsbh_VJj6DkOQTpPftBGn8MFR0x2Zpt8/view",
         "description": ""
     }
 ]

@@ -40,7 +40,7 @@ function Header() {
             </Link>
         
       
-            <a href = "JessicaRingler-Resume.pdf" target = "blank" >R&#233;sum&#233;</a>
+            <a href = {process.env.PUBLIC_URL + "/JessicaRingler-Resume.pdf"} target = "blank" >R&#233;sum&#233;</a>
           
         </div>
     </nav>

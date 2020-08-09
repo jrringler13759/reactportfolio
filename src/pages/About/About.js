@@ -11,7 +11,7 @@ function About() {
         </div>
 
         <div className = "row justify-content-center">
-          <img id = "profilePic" className = "responsive" src = {process.env.PUBLIC_URL + "Assets/ProfilePic.jpg"} alt = "Jessica Ringler" />
+          <img id = "profilePic" className = "responsive" src = {process.env.PUBLIC_URL + "/Assets/ProfilePic.jpg"} alt = "Jessica Ringler" />
         </div>
         
         <br />
